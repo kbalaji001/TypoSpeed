@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+body{
+	background-color: #ffc6b3;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.content{
+	text-align: center;
+}
+
+#message{
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+#text{
+	font-size: 24px;
+	width: 85%;
+	padding: 20px 10px 10px;
+	border-radius: .5rem;
+	resize: none;
+}
+
+textarea:focus{
+	animation: border-color-change;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+}
+
+.meter-gauge {
+	display: flex;
+}
+
+.meter-gauge>span {
+	text-align: center;
+	font-size: 15px;
+	min-height: 25px;
+	padding: 5px;
+}
+
+::placeholder {
+	color: white;
+	opacity: 1;
+}
+
+.fa-heart{
+	color: red;
+}
+
+#footer{
+	text-align: center;
+}
+
+#time{
+	font-size: 20px;
+}
+
+.btn {
+	background-color: #00b36b;
+	font-size: 25px;
+	color: white;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #00804d;
+	color: white;
+}
+
+#header{
+	background-color: #b32d00;
+	color: white;
+}
+
+#head{
+	color: #005c99;
+	font-weight: bold;
+}
+
+#im{
+	position: absolute;
+	width:180px;
+	height:220px;
+	left: 80px;
+	top: 30px; 
+}

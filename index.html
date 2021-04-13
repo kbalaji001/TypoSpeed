@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypoSpeed</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Kumbh+Sans&family=Ranchers&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet"> 
+
+	<script src="https://kit.fontawesome.com/ab46077c09.js"></script>
+	<script src="script.js"></script>
+	
+    <link rel="icon" type="image/png" href="keyboard.png">
+
+</head>
+
+<body >
+
+	<header class="text-center p-3 mb-5" id="header">
+		<h1>TypoSpeed</h1>
+	</header>
+	
+	<img src="type.png" id="im"/>
+
+	<div class="main my-5">
+
+		<div class="content container-fluid">
+			
+			<h1 id="head"> Test your Typing Speed per Minute</h1> <br>
+
+			<h3 id="message" class="text-dark mx-4 text-center my-4">Text will appear here</h3>
+
+			<textarea tabindex="0" autocomplete="off" id="text" rows="10" class=" bg-dark text-white" placeholder="Click the Start button & Start typing . . ." ></textarea>
+			<br>
+			<button class="btn btn-light px-4" id="start-btn">Start</button>
+			<br><br><div id="time">Time left = <span id="timer"></span></div>
+
+		</div>
+
+		<div id="result" class="mt-2 pt-2  text-center">
+				
+				<h4  class="text-dark"></h4>
+
+		</div>
+
+		<div class="col-sm-12 col-md-8 order-md-1">
+			<div class="container">
+				<h6 style="font-size:20px"><b>Tip !</b></h6>
+				<ul>
+					<li>Word Per Minute (WPM) is measured by calculating how many words you can type in 1 minute.</li>
+					<li>Character Per Minute (CPM) calculates how many characters are typed per minute.</li>
+					<li>The top typing speed was achieved by <a href="https://en.wikipedia.org/wiki/Typing#Alphanumeric_entry"
+							target="_blank">Stella Pajunas-Garnand</a>, 212 words per minute in 1946.</li>
+				</ul>
+				<hr class="mt-5">
+				<div title="Average typing speed" class="my-4">
+					<h6 style="font-size:18px"><b>Average typing speed:</b></h6>
+					<div class="meter-gauge text-light">
+						<span class="col" style="background: #eb4841">0 - 20 Slow</span>
+						<span class="col" style="background: #f48847">20 - 40 Average</span>
+						<span class="col" style="background: #ffc84a">40 - 60 Fast</span>
+						<span class="col" style="background: #a6c34c">60 - 80 Professional</span>
+						<span class="col" style="background: #4ec04e">80 - 100+ Top</span>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div>
+		
+	</div>
+	
+	<footer id="footer">
+		Made with <i class="fa fa-heart"></i> by Balaji
+	</footer>
+	<br>
+	
+</body>
+
+</html>
