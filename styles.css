@@ -92,9 +92,6 @@ textarea:focus{
 }
 
 #im{
-	position: absolute;
 	width:180px;
 	height:220px;
-	left: 80px;
-	top: 30px; 
 }
